@@ -29,7 +29,7 @@ with open("D:/2023/Research/vtResults.txt", "a", encoding='utf-8') as f:
                 f.write(f"Last final URL: {url.last_final_url}\n")
                 f.write(f"Last submission date: {url.last_submission_date}\n")
                 f.write(f"Categories: {url.categories}\n")
-                f.write(f"\n")
+                f.write("\n")
 
             else:
                 print(f"URL: {url.url} is not malicious or suspicious\n")
