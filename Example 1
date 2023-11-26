@@ -2,3 +2,4 @@
 
 char str[20];
 gets(str);
+sprintf(str, "%s", message);
